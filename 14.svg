@@ -1,0 +1,32 @@
+<svg width="80" height="60" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Neon Glows -->
+    <filter id="glowPinkFace" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ff66cc"/>
+    </filter>
+    <filter id="glowRedFace" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ff0055"/>
+    </filter>
+
+    <linearGradient id="face1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6699" />
+      <stop offset="100%" stop-color="#ff99cc" />
+    </linearGradient>
+    <linearGradient id="face2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b300ff" />
+      <stop offset="100%" stop-color="#ff0033" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pink face -->
+  <rect x="10" y="10" width="34" height="34" rx="4" fill="url(#face1)" filter="url(#glowPinkFace)" />
+  <circle cx="18" cy="18" r="2" fill="#fff"/>
+  <circle cx="26" cy="18" r="2" fill="#fff"/>
+  <path d="M18 24 Q22 27 26 24" stroke="#fff" stroke-width="2" fill="none" />
+
+  <!-- Red face -->
+  <rect x="32" y="16" width="36" height="36" rx="5" fill="url(#face2)" filter="url(#glowRedFace)" />
+  <circle cx="40" cy="26" r="2.2" fill="#fff"/>
+  <circle cx="48" cy="26" r="2.2" fill="#fff"/>
+  <path d="M40 32 Q44 36 48 32" stroke="#fff" stroke-width="2" fill="none" />
+</svg>

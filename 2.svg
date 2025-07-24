@@ -1,0 +1,16 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="circleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff00ff" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+    <filter id="circleGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ff00ff" />
+    </filter>
+  </defs>
+  <!-- Glowing Circle -->
+  <circle cx="30" cy="30" r="24" fill="url(#circleGradient)" stroke="#ff00ff" stroke-width="1.5" filter="url(#circleGlow)" />
+  <!-- Arrow -->
+  <polyline points="30,20 30,38" stroke="#690969ff" stroke-width="3" stroke-linecap="round" />
+  <polyline points="24,32 30,38 36,32" fill="none" stroke="#690969ff" stroke-width="3" stroke-linecap="round" />
+</svg>

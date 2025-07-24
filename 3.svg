@@ -1,0 +1,27 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5acd"/>
+      <stop offset="100%" stop-color="#b300ff"/>
+    </linearGradient>
+    <radialGradient id="lensGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffeded" />
+      <stop offset="100%" stop-color="#ff5acd" />
+    </radialGradient>
+  </defs>
+
+  <!-- Lens -->
+  <circle cx="48" cy="18" r="7" fill="url(#lensGlow)" stroke="#ff5acd" stroke-width="1.5"/>
+  
+  <!-- Body -->
+  <rect x="20" y="16" width="38" height="8" rx="3" transform="rotate(20 20 16)" fill="url(#bodyGrad)" />
+
+  <!-- Stand -->
+  <line x1="30" y1="30" x2="26" y2="50" stroke="#b300ff" stroke-width="3"/>
+  <line x1="36" y1="32" x2="40" y2="50" stroke="#b300ff" stroke-width="3"/>
+
+  <!-- Sparkle stars -->
+  <circle cx="50" cy="10" r="1.5" fill="#ff5acd"/>
+  <circle cx="44" cy="26" r="1" fill="#ff5acd"/>
+  <circle cx="54" cy="22" r="1.2" fill="#ff5acd"/>
+</svg>

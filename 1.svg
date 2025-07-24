@@ -1,0 +1,15 @@
+<svg width="80" height="60" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="screenGradient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#5d105dff"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <filter id="glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#ff00ff"/>
+    </filter>
+  </defs>
+  <!-- TV Frame -->
+  <rect x="5" y="5" width="70" height="45" rx="6" fill="url(#screenGradient)" stroke="#ff00ff" stroke-width="1.5" filter="url(#glow)" />
+  <!-- TV Stand -->
+  <rect x="30" y="52" width="20" height="4" rx="2" fill="#690969ff" filter="url(#glow)" />
+</svg>
